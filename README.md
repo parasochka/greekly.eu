@@ -13,7 +13,7 @@ terms/index.html           Terms of Use (English)
 404.html                   Not-found page
 assets/style.css           All styles (light + dark theme, responsive, self-hosted font)
 assets/fonts/              Manrope variable font, woff2 subsets (latin, latin-ext, greek, cyrillic)
-assets/screens/            App Store screenshots: sN.webp (640w), sN-sm.webp (360w), sN-phone.webp (phone crop)
+assets/screens/            App Store screenshots: sN.webp (640w), sN-sm.webp (360w), sN-phone.webp (phone card, 720x1421, rounded corners with alpha)
 assets/greekly-icon.jpg    App icon, 512x512 source
 assets/icon-512.png        App icon with rounded corners (brand mark, JSON-LD image)
 assets/apple-touch-icon.png, favicon-32.png, favicon-64.png
@@ -52,4 +52,5 @@ company, WCBO LLC, never an individual developer.
 
 To refresh the screenshots, download the six App Store images at 1242x2688, then regenerate
 `assets/screens/` (640w and 360w full frames, plus a 720w crop of the phone card at
-x 115..1127, y 642..2688) and `assets/og-image.jpg`.
+x 115..1127, y 642..2688, trimmed to the card's bottom edge at 720x1421 with a 70px rounded
+corner mask saved as WebP alpha) and `assets/og-image.jpg`.
