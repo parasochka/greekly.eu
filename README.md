@@ -37,8 +37,9 @@ folder: `/ (root)`. Custom domain `greekly.eu` is set through the `CNAME` file; 
 DNS at GitHub Pages (`A` records to GitHub's Pages IPs, or a `CNAME` record to
 `parasochka.github.io`) and enable **Enforce HTTPS**.
 
-## Before going live
+## App Store
 
-- The two "Download on the App Store" buttons in `index.html` and `ru/index.html` are `href="#"`
-  placeholders, marked with a TODO comment. Replace them once the App Store listing exists.
-- `og:image` is not set; add an image to `assets/` and reference it if link previews matter.
+The app is listed as **Greekly AI: Learn Greek**, App Store id `6810982667`:
+<https://apps.apple.com/app/id6810982667>. The link is used by the download buttons on both
+landing pages, by the footer links, and by the `SoftwareApplication` JSON-LD block in the page
+head. `assets/greekly-icon.jpg` is the app icon, used as `og:image` and as the apple-touch-icon.
