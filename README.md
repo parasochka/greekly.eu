@@ -6,17 +6,22 @@ Plain HTML and one CSS file, no build step, served by GitHub Pages.
 ## Structure
 
 ```
-index.html          English landing page
-ru/index.html       Russian landing page
-privacy/index.html  Privacy Policy (English)
-terms/index.html    Terms of Use (English)
-404.html            Not-found page
-assets/style.css    All styles (light + dark theme, responsive)
-assets/favicon.svg  Favicon
-CNAME               Custom domain: greekly.eu
-.nojekyll           Serve files as-is, no Jekyll processing
-robots.txt          Crawling rules + sitemap reference
-sitemap.xml         URL list with hreflang pairs
+index.html                 English landing page
+ru/index.html              Russian landing page
+privacy/index.html         Privacy Policy (English)
+terms/index.html           Terms of Use (English)
+404.html                   Not-found page
+assets/style.css           All styles (light + dark theme, responsive, self-hosted font)
+assets/fonts/              Manrope variable font, woff2 subsets (latin, latin-ext, greek, cyrillic)
+assets/screens/            App Store screenshots: sN.webp (640w), sN-sm.webp (360w), sN-phone.webp (phone crop)
+assets/greekly-icon.jpg    App icon, 512x512 source
+assets/icon-512.png        App icon with rounded corners (brand mark, JSON-LD image)
+assets/apple-touch-icon.png, favicon-32.png, favicon-64.png
+assets/og-image.jpg        1200x630 social preview built from the screenshots
+CNAME                      Custom domain: greekly.eu
+.nojekyll                  Serve files as-is, no Jekyll processing
+robots.txt                 Crawling rules + sitemap reference
+sitemap.xml                URL list with hreflang pairs
 ```
 
 ## Local preview
@@ -34,12 +39,17 @@ GitHub Pages on a custom domain.
 
 GitHub repo settings → **Pages** → Source: **Deploy from a branch**, branch: the default branch,
 folder: `/ (root)`. Custom domain `greekly.eu` is set through the `CNAME` file; point the domain's
-DNS at GitHub Pages (`A` records to GitHub's Pages IPs, or a `CNAME` record to
-`parasochka.github.io`) and enable **Enforce HTTPS**.
+DNS at GitHub Pages (`A` records to GitHub's Pages IPs, or a `CNAME` record to the account's
+`github.io` host) and enable **Enforce HTTPS**.
 
 ## App Store
 
 The app is listed as **Greekly AI: Learn Greek**, App Store id `6810982667`:
-<https://apps.apple.com/app/id6810982667>. The link is used by the download buttons on both
-landing pages, by the footer links, and by the `SoftwareApplication` JSON-LD block in the page
-head. `assets/greekly-icon.jpg` is the app icon, used as `og:image` and as the apple-touch-icon.
+<https://apps.apple.com/app/id6810982667>. Texts, palette (navy `#11315c`, peach `#f8d0a8`,
+blue `#2850a0`, cream `#f3f1ec`), screenshots and the icon on the site come from that listing.
+The first screenshot's greeting was retouched to remove a personal name; the site names only the
+company, WCBO LLC, never an individual developer.
+
+To refresh the screenshots, download the six App Store images at 1242x2688, then regenerate
+`assets/screens/` (640w and 360w full frames, plus a 720w crop of the phone card at
+x 115..1127, y 642..2688) and `assets/og-image.jpg`.

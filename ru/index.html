@@ -3,42 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Greekly - AI-приложение для изучения греческого на iPhone и в Telegram</title>
-<meta name="description" content="Greekly - AI-приложение для изучения современного греческого: iOS-приложение и Telegram-боты. Адаптивные квизы, диалоги, письмо и лексика, объяснение после каждого ответа, уровень A1-A2.">
+<title>Greekly AI: Learn Greek - греческий для повседневной жизни на iPhone</title>
+<meta name="description" content="Учите современный греческий с нуля до A2: квизы, диалоги и письма, которые AI пишет про вашу жизнь. Пять режимов практики, несколько минут в день. Бесплатный старт, без аккаунта.">
 <link rel="canonical" href="https://greekly.eu/ru/">
 <link rel="alternate" hreflang="en" href="https://greekly.eu/">
 <link rel="alternate" hreflang="ru" href="https://greekly.eu/ru/">
 <link rel="alternate" hreflang="x-default" href="https://greekly.eu/">
+<meta name="theme-color" content="#11315c">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Greekly - AI-приложение для изучения греческого на iPhone и в Telegram">
-<meta property="og:description" content="Учите современный греческий с Greekly: AI-приложение для iOS и Telegram-боты. Адаптивные квизы, диалоги, письмо и лексика с объяснением после каждого ответа.">
+<meta property="og:site_name" content="Greekly">
+<meta property="og:title" content="Greekly AI: Learn Greek - греческий для повседневной жизни">
+<meta property="og:description" content="Учите современный греческий с нуля до A2: квизы, диалоги и письма, которые AI пишет про вашу жизнь. Пять режимов практики, несколько минут в день. Бесплатный старт, без аккаунта.">
 <meta property="og:url" content="https://greekly.eu/ru/">
 <meta property="og:locale" content="ru_RU">
 <meta property="og:locale:alternate" content="en_US">
-<meta property="og:image" content="https://greekly.eu/assets/greekly-icon.jpg">
-<meta name="twitter:card" content="summary">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/assets/greekly-icon.jpg">
+<meta property="og:image" content="https://greekly.eu/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://greekly.eu/assets/og-image.jpg">
+<meta name="apple-itunes-app" content="app-id=6810982667">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/favicon-64.png" sizes="64x64" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "Greekly AI: Learn Greek",
+  "alternateName": "Greekly",
   "applicationCategory": "EducationalApplication",
+  "applicationSubCategory": "Language learning",
   "operatingSystem": "iOS 17.4 or later",
-  "url": "https://apps.apple.com/app/id6810982667",
+  "url": "https://greekly.eu/ru/",
+  "installUrl": "https://apps.apple.com/app/id6810982667",
+  "downloadUrl": "https://apps.apple.com/app/id6810982667",
+  "image": "https://greekly.eu/assets/icon-512.png",
+  "screenshot": [
+    "https://greekly.eu/assets/screens/s1.webp",
+    "https://greekly.eu/assets/screens/s2.webp",
+    "https://greekly.eu/assets/screens/s3.webp",
+    "https://greekly.eu/assets/screens/s4.webp",
+    "https://greekly.eu/assets/screens/s5.webp",
+    "https://greekly.eu/assets/screens/s6.webp"
+  ],
   "inLanguage": "ru",
-  "description": "AI-приложение для изучения современного греческого уровня A1-A2: квизы, диалоги, письмо, лексика и конструктор предложений с объяснением после каждого ответа.",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "author": {
-    "@type": "Organization",
-    "name": "WCBO LLC (WhiteCat Blogger Outreach LLC)"
-  }
+  "description": "Учите современный греческий с нуля до A2: квизы, диалоги и письма, которые AI пишет про вашу жизнь. Пять режимов практики, несколько минут в день. Бесплатный старт, без аккаунта.",
+  "offers": [
+    { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Бесплатный план: 5 упражнений в день в первые 6 дней" },
+    { "@type": "Offer", "name": "Greekly Monthly", "price": "4.99", "priceCurrency": "USD", "description": "Месячная подписка, безлимитная практика во всех пяти режимах" }
+  ],
+  "author": { "@type": "Organization", "name": "WCBO LLC", "url": "https://greekly.eu/" },
+  "publisher": { "@type": "Organization", "name": "WCBO LLC" }
 }
 </script>
 </head>
@@ -46,153 +65,278 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/ru/">Greek<span>ly</span></a>
+    <a class="brand" href="/ru/"><img src="/assets/icon-512.png" alt="" width="32" height="32">Greekly</a>
     <nav class="site-nav">
-      <a href="#how">Как работает</a>
+      <a href="#modes">Режимы</a>
+      <a href="#made-for-you">Как работает</a>
       <a href="#pricing">Подписка</a>
+      <a href="#faq">Вопросы</a>
       <a href="#support">Поддержка</a>
-      <a href="/privacy/">Privacy</a>
-      <a href="/terms/">Terms</a>
-      <a href="/">EN</a>
+      <a class="lang" href="/" hreflang="en" lang="en">EN</a>
+      <a class="nav-cta" href="https://apps.apple.com/app/id6810982667">Скачать</a>
     </nav>
   </div>
 </header>
 
 <main>
 
-<div class="hero">
+<section class="hero">
   <div class="wrap">
-    <h1>Учи греческий с AI на iPhone и в Telegram</h1>
-    <p class="lead">Greekly помогает учить современный греческий язык. AI генерирует квизы, диалоги и упражнения по письму под ваш профиль, объясняет каждый ответ, тренирует лексику и сборку предложений и чаще повторяет то, в чём вы ошибаетесь.</p>
-    <p class="lead">Пользуйтесь как приложением на iPhone или как ботом в Telegram. <strong>И то и другое начинается бесплатно, без карты.</strong></p>
-    <div class="btn-row">
-      <a class="btn btn-primary" href="https://apps.apple.com/app/id6810982667">Скачать в App Store</a>
-      <a class="btn btn-secondary" href="https://t.me/greek_a2_bot">Открыть в Telegram</a>
+    <div class="hero-copy">
+      <span class="eyebrow">Учим греческий · приложение для iPhone</span>
+      <h1>Греческий для <em>повседневной жизни.</em></h1>
+      <p class="lead">Учите современный греческий с нуля до A2: квизы, диалоги и письма, которые AI пишет про вашу жизнь. Пять режимов практики, несколько минут в день. <strong>Бесплатный старт, без аккаунта.</strong></p>
+      <div class="btn-row">
+        <a class="btn btn-apple" href="https://apps.apple.com/app/id6810982667">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.37 12.7c-.02-2.3 1.88-3.4 1.96-3.45-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3.01-.79-1.55.02-2.98.9-3.78 2.29-1.61 2.79-.41 6.93 1.16 9.2.77 1.11 1.68 2.36 2.88 2.31 1.16-.05 1.6-.75 3-.75s1.79.75 3.02.73c1.25-.02 2.04-1.13 2.8-2.25.88-1.29 1.24-2.54 1.26-2.6-.03-.01-2.42-.93-2.44-3.72zM14.1 6.02c.64-.77 1.07-1.85.95-2.92-.92.04-2.03.61-2.69 1.38-.59.68-1.11 1.78-.97 2.83 1.03.08 2.07-.52 2.71-1.29z"/></svg>
+          <span><small>Загрузите в</small>App Store</span>
+        </a>
+        <a class="btn btn-ghost" href="#screens">Посмотреть экраны</a>
+      </div>
+      <div class="hero-meta">
+        <span><b>Бесплатно</b>, есть встроенные покупки</span>
+        <span>iOS <b>17.4+</b></span>
+        <span>Всего <b>3,2 МБ</b></span>
+        <span>Возраст <b>4+</b></span>
+        <span>Интерфейс <b>на английском</b></span>
+      </div>
     </div>
-    <p class="note">В App Store приложение называется <strong>Greekly AI: Learn Greek</strong>, интерфейс приложения на английском. Удобнее в Telegram? <a href="https://t.me/greek_a2_bot">@greek_a2_bot</a> (русский) &middot; <a href="https://t.me/greekly_bot">@greekly_bot</a> (английский)</p>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="glow"></div>
+      <div class="phone phone-back"><img src="/assets/screens/s4-phone.webp" alt="" width="720" height="1455" loading="eager"></div>
+      <div class="phone phone-main"><img src="/assets/screens/s1-phone.webp" alt="" width="720" height="1455" loading="eager" fetchpriority="high"></div>
+    </div>
   </div>
-</div>
+</section>
 
-<section id="how">
+<section class="screens" id="screens">
+  <div class="wrap section-head center">
+    <span class="eyebrow">Внутри приложения</span>
+    <h2>Слова, предложения и диалоги. Ваш греческий начинается здесь.</h2>
+    <p>Расскажите Greekly, кто вы и зачем вам греческий, и ваши квизы, диалоги и письма будут про вашу жизнь: ваш город, вашу работу, ваши планы на выходные. Не семья из учебника и не чужой отпуск.</p>
+  </div>
+  <div class="rail">
+    <figure><img src="/assets/screens/s1.webp" srcset="/assets/screens/s1-sm.webp 360w, /assets/screens/s1.webp 640w" sizes="272px" width="640" height="1385" alt="Главный экран Greekly: греческий для повседневной жизни" loading="lazy"></figure>
+    <figure><img src="/assets/screens/s2.webp" srcset="/assets/screens/s2-sm.webp 360w, /assets/screens/s2.webp 640w" sizes="272px" width="640" height="1385" alt="Режим Слова: новые слова запоминаются через практику с греческого на английский" loading="lazy"></figure>
+    <figure><img src="/assets/screens/s3.webp" srcset="/assets/screens/s3-sm.webp 360w, /assets/screens/s3.webp 640w" sizes="272px" width="640" height="1385" alt="Конструктор предложений: собирайте предложения и учитесь на практике" loading="lazy"></figure>
+    <figure><img src="/assets/screens/s4.webp" srcset="/assets/screens/s4-sm.webp 360w, /assets/screens/s4.webp 640w" sizes="272px" width="640" height="1385" alt="Режим Диалог: бытовые диалоги с переводом и объяснением ответов" loading="lazy"></figure>
+    <figure><img src="/assets/screens/s5.webp" srcset="/assets/screens/s5-sm.webp 360w, /assets/screens/s5.webp 640w" sizes="272px" width="640" height="1385" alt="Результаты сессии: ваши успехи и слова, которые стоит повторить" loading="lazy"></figure>
+    <figure><img src="/assets/screens/s6.webp" srcset="/assets/screens/s6-sm.webp 360w, /assets/screens/s6.webp 640w" sizes="272px" width="640" height="1385" alt="Статистика: точность, серия и прогресс по темам" loading="lazy"></figure>
+  </div>
+  <p class="rail-hint">Листайте, чтобы увидеть все шесть экранов</p>
+</section>
+
+<section class="modes-section" id="modes">
   <div class="wrap">
-    <h2>Как работает Greekly</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Упражнения под вас</h3>
-        <p>Каждое упражнение генерирует AI под ваш профиль (имя, город, хобби и цели) и под слова, в которых вы недавно ошиблись.</p>
-      </div>
-      <div class="card">
-        <h3>Объяснение после ответа</h3>
-        <p>После каждого ответа идёт объяснение: каждая ошибка превращается в мини-урок, а не в красный крестик.</p>
-      </div>
-      <div class="card">
-        <h3>Адаптивное повторение</h3>
-        <p>Слабые темы возвращаются чаще, освоенные реже. Незаконченные упражнения сохраняются, и вы продолжаете с того же места.</p>
-      </div>
+    <div class="section-head">
+      <span class="eyebrow">Пять способов практики</span>
+      <h2>Одно приложение, пять режимов, несколько минут в день.</h2>
+      <p>Каждая сессия короткая и сфокусированная. После каждого ответа идёт объяснение, и ошибка превращается в мини-урок, а не в красный крестик.</p>
     </div>
-
-    <h2 style="margin-top:36px">Пять режимов практики</h2>
     <ul class="modes">
-      <li><b>Квиз</b><span>20 вопросов за сессию: грамматика, лексика, порядок слов.</span></li>
-      <li><b>Диалог</b><span>Бытовой разговор, от таверны до аптеки, реплика за репликой.</span></li>
-      <li><b>Письмо</b><span>Напишите короткое сообщение на греческом и получите исправления.</span></li>
-      <li><b>Слова</b><span>Лексика уровня A2 с повторением и озвучкой произношения.</span></li>
-      <li><b>Конструктор предложений</b><span>Соберите греческое предложение из плиток и запомните порядок слов.</span></li>
-    </ul>
-    <p class="callout" style="margin-top:18px"><strong>Статистика, серия и напоминания:</strong> прогресс по темам и словам, обзор недели и необязательные ежедневные напоминания.</p>
-  </div>
-</section>
-
-<section id="platforms">
-  <div class="wrap">
-    <h2>Приложение на iPhone или бот в Telegram?</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Greekly для iPhone</h3>
-        <ul>
-          <li>Пять режимов: квиз, диалог, письмо, слова, конструктор предложений</li>
-          <li>Без аккаунта и без входа; вход через Apple необязателен</li>
-          <li>Статистика, серия, необязательные ежедневные напоминания</li>
-          <li>Бесплатный план, затем Greekly Monthly через App Store</li>
-          <li>Аккаунт удаляется из настроек в любой момент</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Greekly в Telegram</h3>
-        <ul>
-          <li><a href="https://t.me/greek_a2_bot">@greek_a2_bot</a> - русский интерфейс, подготовка к экзамену A2</li>
-          <li><a href="https://t.me/greekly_bot">@greekly_bot</a> - английский интерфейс</li>
-          <li>Без установки, работает на любом устройстве с Telegram</li>
-          <li>Бесплатный план, затем подписка через Stripe</li>
-        </ul>
-      </div>
-    </div>
-    <p class="callout" style="margin-top:18px">Приложение и боты - отдельные продукты с отдельными аккаунтами: прогресс и подписки между ними не переносятся.</p>
-  </div>
-</section>
-
-<section id="level">
-  <div class="wrap">
-    <h2>Уровень и программа</h2>
-    <p>Greekly - тренажёр <strong>современного греческого с нуля до A2</strong>: языка, на котором сегодня говорят в Греции и на Кипре, а не древнегреческого, койне или библейского. Темы идут по лестнице A1-A2: артикли, падежи, вид глагола, εσύ и εσείς и всё остальное, на чём спотыкаются начинающие, включая темы официального экзамена по греческому уровня A2. Это тренажёр, а не учитель и не сертификат.</p>
-    <p>Чем больше вы занимаетесь, тем точнее Greekly понимает, что вам нужно отработать дальше: AI использует ваш профиль и недавние ошибки, чтобы сгенерировать следующее упражнение.</p>
-  </div>
-</section>
-
-<section id="pricing">
-  <div class="wrap">
-    <h2>Бесплатный план и подписка</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Бесплатный план</h3>
-        <p>5 упражнений в день в первые 6 дней. Без карты, без email, без аккаунта.</p>
-      </div>
-      <div class="card">
-        <h3>Greekly Monthly</h3>
-        <p>Безлимитная практика во всех пяти режимах, первая неделя бесплатно для новых подписчиков. Цена, срок и условия продления показаны перед покупкой на экране подписки.</p>
-      </div>
-    </div>
-    <p style="margin-top:18px">На iPhone подписка покупается через App Store, продлевается автоматически, если не отменить её минимум за 24 часа до конца текущего периода, и управляется в Настройках → Apple Account → Подписки. Возвраты обрабатывает Apple.</p>
-    <p>В Telegram подписка оплачивается через Stripe и отменяется в боте или через <a href="#support">поддержку</a>.</p>
-  </div>
-</section>
-
-<section id="audience">
-  <div class="wrap">
-    <h2>Кому подойдёт Greekly</h2>
-    <ul>
-      <li>Экспатам и удалённым специалистам в Греции и на Кипре</li>
-      <li>Тем, кто готовится к экзамену по греческому уровня A2</li>
-      <li>Всем, кто уже начал учить греческий и хочет ежедневной персональной практики</li>
-      <li>Тем, кому удобнее короткие сфокусированные сессии вместо долгих уроков</li>
+      <li>
+        <div class="tile tile-quiz"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+        <h3>Квиз</h3>
+        <p>20 вопросов за сессию: грамматика, лексика и порядок слов, с коротким объяснением после каждого ответа.</p>
+      </li>
+      <li>
+        <div class="tile tile-dialogue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Диалог</h3>
+        <p>Бытовой разговор, от таверны до аптеки, реплика за репликой.</p>
+      </li>
+      <li>
+        <div class="tile tile-letter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></div>
+        <h3>Письмо</h3>
+        <p>Напишите короткое сообщение на греческом и получите исправления.</p>
+      </li>
+      <li>
+        <div class="tile tile-words"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+        <h3>Слова</h3>
+        <p>Лексика уровня A2 с повторением в первую очередь и озвучкой произношения.</p>
+      </li>
+      <li>
+        <div class="tile tile-constructor"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M17.5 14v7M14 17.5h7"/></svg></div>
+        <h3>Конструктор предложений</h3>
+        <p>Собирайте греческие предложения из плиток и запоминайте порядок слов.</p>
+      </li>
     </ul>
   </div>
 </section>
 
-<section id="privacy">
+<section class="feature alt" id="made-for-you">
   <div class="wrap">
-    <h2>Приватность</h2>
-    <p>Без рекламы, без аналитики и трекинговых SDK, без сторонних трекеров. На iPhone Greekly не получает ваш email. Платежи идут через Apple или Stripe и не попадают на серверы Greekly. Аккаунт и всё, что к нему привязано, можно удалить прямо в приложении. Подробности в <a href="/privacy/">Политике конфиденциальности</a> (на английском).</p>
-    <h3>Важно про AI</h3>
-    <p>Большинство упражнений создаёт искусственный интеллект. Несмотря на проверку, возможны неточности. Если заметили ошибку, сообщите через экран “Report a problem” внутри приложения или бота: это помогает Greekly быстро становиться точнее.</p>
+    <div>
+      <span class="eyebrow">Сделано под вас</span>
+      <h2>Тот греческий, который вы тренируете, вы и будете использовать.</h2>
+      <ul class="feature-list">
+        <li><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span><div><b>Упражнения вокруг вашего профиля</b><span>AI генерирует задания под то, кто вы и зачем вам греческий.</span></div></li>
+        <li><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M6 16V8"/><path d="M12 16V4"/><path d="M18 16v-6"/></svg></span><div><b>Структурная лестница A1-A2</b><span>Артикли, падежи, вид глагола, εσύ и εσείς и всё остальное, на чём спотыкаются начинающие.</span></div></li>
+        <li><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg></span><div><b>Слабые темы возвращаются, пока не закрепятся</b><span>После каждой ошибки идёт объяснение, а то, в чём вы ошиблись, повторяется чаще.</span></div></li>
+      </ul>
+    </div>
+    <div class="feature-visual">
+      <div class="blob"></div>
+      <div class="phone tilt"><img src="/assets/screens/s3-phone.webp" width="720" height="1455" alt="Экран конструктора предложений: расставьте греческие слова по порядку с подсказками." loading="lazy"></div>
+    </div>
   </div>
 </section>
 
-<section id="support">
+<section class="feature flip" id="habit">
   <div class="wrap">
-    <h2>Поддержка</h2>
-    <p>Оператор Greekly: WCBO LLC (WhiteCat Blogger Outreach LLC), Бивертон, Орегон 97005, США; операционный офис в Лимассоле 3025, Кипр.</p>
-    <p>Вопросы, ошибки, возвраты или удаление аккаунта: пишите на <a href="mailto:parasochkaartem@gmail.com">parasochkaartem@gmail.com</a> или используйте “Report a problem” внутри приложения (вкладка Support). Удаление аккаунта доступно в приложении: Settings → Delete account. Возвраты за покупки в App Store обрабатывает Apple на <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>.</p>
+    <div>
+      <span class="eyebrow">Держите ритм</span>
+      <h2>Видьте свои успехи. Знайте, на чём сфокусироваться дальше.</h2>
+      <ul class="feature-list">
+        <li><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-6"/></svg></span><div><b>Статистика по темам и словам</b><span>Точность, серия занятий и обзор недели показывают, что работает.</span></div></li>
+        <li><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></span><div><b>Необязательные ежедневные напоминания</b><span>Мягкое напоминание в выбранное время, и только если вы его включите.</span></div></li>
+        <li><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a10 10 0 1 0-10-10"/><path d="M2 12h4"/><path d="M12 6v6l4 2"/></svg></span><div><b>Продолжайте ровно с того места</b><span>Незаконченные упражнения сохраняются, и короткий перерыв не стоит вам сессии.</span></div></li>
+      </ul>
+    </div>
+    <div class="feature-visual">
+      <div class="blob blue"></div>
+      <div class="phone"><img src="/assets/screens/s6-phone.webp" width="720" height="1455" alt="Экран статистики: точность, серия, слабые и сильные темы." loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section class="trust" id="privacy">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Без аккаунта</span>
+      <h2>Откройте приложение и начните.</h2>
+      <p>Вход через Apple необязателен и нужен только для того, чтобы прогресс переехал с вами на другой iPhone.</p>
+    </div>
+    <div class="trust-grid">
+      <div><b>Без рекламы</b><p>Нечего продавать, нечего пропускать. Только практика.</p></div>
+      <div><b>Без трекинга</b><p>Ни аналитических и трекинговых SDK, ни сторонних трекеров.</p></div>
+      <div><b>Без email</b><p>На iPhone Greekly не получает и не запрашивает ваш адрес электронной почты.</p></div>
+      <div><b>Удаление в любой момент</b><p>Аккаунт и всё, что к нему привязано, удаляется из настроек внутри приложения.</p></div>
+    </div>
+    <p style="margin:26px 0 0;color:rgba(255,255,255,.7);font-size:.95rem">Подробности в <a href="/privacy/" style="color:var(--peach)">Политике конфиденциальности</a> и <a href="/terms/" style="color:var(--peach)">Условиях использования</a> (на английском).</p>
+  </div>
+</section>
+
+<section class="pricing" id="pricing">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Бесплатный план и подписка</span>
+      <h2>Начните бесплатно. Перейдите на подписку, когда греческий станет привычкой.</h2>
+    </div>
+    <div class="plans">
+      <div class="plan">
+        <span class="badge">Бесплатный план</span>
+        <div class="price">$0</div>
+        <div class="price-note">Без карты, без email, без аккаунта</div>
+        <ul>
+          <li>5 упражнений в день в первые 6 дней</li>
+          <li>Все пять режимов практики</li>
+          <li>Статистика, серия и напоминания</li>
+        </ul>
+        <a class="btn btn-secondary" href="https://apps.apple.com/app/id6810982667">Скачать бесплатно</a>
+      </div>
+      <div class="plan featured">
+        <span class="badge">Greekly Monthly</span>
+        <div class="price">$4.99 <small>/ месяц</small></div>
+        <div class="price-note">Цена в App Store США; в других странах отличается</div>
+        <ul>
+          <li>Безлимитная практика во всех пяти режимах</li>
+          <li>Отмена в любой момент в настройках App Store</li>
+          <li>Продлевается автоматически, пока не отменена</li>
+        </ul>
+        <a class="btn btn-primary" href="https://apps.apple.com/app/id6810982667">Оформить Greekly Monthly</a>
+      </div>
+    </div>
+    <p class="fine">Оплата списывается с вашего Apple Account при подтверждении покупки. Подписка продлевается автоматически, если не отменить её минимум за 24 часа до конца текущего периода. Управление и отмена: Настройки → ваш Apple Account → Подписки. Возвраты за покупки в App Store обрабатывает Apple на <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>.</p>
+  </div>
+</section>
+
+<section class="telegram" id="telegram">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Ещё и в Telegram</span>
+      <h2>Нет iPhone? Занимайтесь в боте.</h2>
+      <p>Greekly есть и в виде Telegram-ботов. Это отдельные продукты с отдельными аккаунтами: прогресс и подписки между приложением и ботами не переносятся.</p>
+    </div>
+    <div class="card-row">
+      <div class="card">
+        <h3>@greek_a2_bot</h3>
+        <p>Русский интерфейс, построен вокруг тем официального экзамена по греческому уровня A2. Бесплатный план, затем подписка через Stripe.</p>
+        <a class="tg" href="https://t.me/greek_a2_bot"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm4.9 6.8-1.6 7.7c-.1.6-.5.7-.9.4l-2.5-1.9-1.2 1.2c-.1.1-.3.3-.5.3l.2-2.6 4.6-4.2c.2-.2 0-.3-.3-.1l-5.7 3.6-2.5-.8c-.5-.2-.5-.5.1-.8l9.6-3.7c.5-.2.9.1.7.9z"/></svg>Открыть @greek_a2_bot</a>
+      </div>
+      <div class="card">
+        <h3>@greekly_bot</h3>
+        <p>Английский интерфейс. Квизы, диалоги и письменная практика прямо в чате, без установки, на любом устройстве с Telegram.</p>
+        <a class="tg" href="https://t.me/greekly_bot"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm4.9 6.8-1.6 7.7c-.1.6-.5.7-.9.4l-2.5-1.9-1.2 1.2c-.1.1-.3.3-.5.3l.2-2.6 4.6-4.2c.2-.2 0-.3-.3-.1l-5.7 3.6-2.5-.8c-.5-.2-.5-.5.1-.8l9.6-3.7c.5-.2.9.1.7.9z"/></svg>Открыть @greekly_bot</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Вопросы</span>
+      <h2>Полезно знать</h2>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>Какой греческий преподаёт Greekly?</summary>
+        <p>Современный греческий, на котором сегодня говорят в Греции и на Кипре. Это не курс древнегреческого, койне или библейского греческого.</p>
+      </details>
+      <details>
+        <summary>На какой уровень рассчитано приложение?</summary>
+        <p>На начинающих, с нуля до A2. Темы идут по структурной лестнице A1-A2, включая то, что покрывает официальный экзамен по греческому уровня A2. Greekly - тренажёр, а не учитель и не сертификат.</p>
+      </details>
+      <details>
+        <summary>На каком языке интерфейс?</summary>
+        <p>Интерфейс приложения на английском, в App Store оно называется Greekly AI: Learn Greek. Бот с русским интерфейсом: <a href="https://t.me/greek_a2_bot">@greek_a2_bot</a> в Telegram.</p>
+      </details>
+      <details>
+        <summary>Нужен ли аккаунт?</summary>
+        <p>Нет. Откройте приложение и начните. Вход через Apple необязателен и нужен только для переноса прогресса на другой iPhone. Email не требуется.</p>
+      </details>
+      <details>
+        <summary>Что входит в бесплатный план?</summary>
+        <p>5 упражнений в день в первые 6 дней во всех пяти режимах. Greekly Monthly затем открывает безлимитную практику. Цена, срок и условия продления показаны на экране подписки перед покупкой.</p>
+      </details>
+      <details>
+        <summary>Как отменить подписку?</summary>
+        <p>В Настройках → ваш Apple Account → Подписки, минимум за 24 часа до конца текущего периода. Удаление приложения или аккаунта Greekly подписку не отменяет. Возвраты обрабатывает Apple.</p>
+      </details>
+      <details>
+        <summary>Может ли AI ошибаться?</summary>
+        <p>Большинство упражнений создаёт искусственный интеллект. Несмотря на проверку, возможны неточности. Если заметили ошибку, воспользуйтесь экраном “Report a problem” внутри приложения: это помогает Greekly быстро становиться точнее.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="support" id="support">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Поддержка</span>
+      <h2>Мы на связи.</h2>
+      <p>Вопросы, ошибки, возвраты или удаление аккаунта: пишите на <a href="mailto:parasochkaartem@gmail.com">parasochkaartem@gmail.com</a> или используйте “Report a problem” внутри приложения (вкладка Support). Удаление аккаунта: Settings → Delete account.</p>
+    </div>
+    <div>
+      <h3>Компания</h3>
+      <p>Greekly разрабатывает и поддерживает <strong>WCBO LLC</strong> (WhiteCat Blogger Outreach LLC), Бивертон, Орегон 97005, США; операционный офис в Лимассоле 3025, Кипр.</p>
+      <p>Возвраты за покупки в App Store обрабатывает Apple на <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>.</p>
+    </div>
   </div>
 </section>
 
 <section class="cta">
   <div class="wrap">
-    <h2>Начните учить греческий сегодня</h2>
-    <p>Установите Greekly на iPhone или откройте в Telegram и сделайте первое упражнение меньше чем за минуту. Бесплатный старт, без карты.</p>
+    <img class="icon" src="/assets/icon-512.png" alt="Иконка приложения Greekly" width="84" height="84" loading="lazy">
+    <h2>Ваш греческий <em>начинается здесь.</em></h2>
+    <p>Установите Greekly и сделайте первое упражнение меньше чем за минуту. Бесплатный старт, без карты, без аккаунта.</p>
     <div class="btn-row">
-      <a class="btn btn-primary" href="https://apps.apple.com/app/id6810982667">Скачать в App Store</a>
-      <a class="btn btn-secondary" href="https://t.me/greek_a2_bot">Открыть в Telegram</a>
+      <a class="btn btn-apple" href="https://apps.apple.com/app/id6810982667">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.37 12.7c-.02-2.3 1.88-3.4 1.96-3.45-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3.01-.79-1.55.02-2.98.9-3.78 2.29-1.61 2.79-.41 6.93 1.16 9.2.77 1.11 1.68 2.36 2.88 2.31 1.16-.05 1.6-.75 3-.75s1.79.75 3.02.73c1.25-.02 2.04-1.13 2.8-2.25.88-1.29 1.24-2.54 1.26-2.6-.03-.01-2.42-.93-2.44-3.72zM14.1 6.02c.64-.77 1.07-1.85.95-2.92-.92.04-2.03.61-2.69 1.38-.59.68-1.11 1.78-.97 2.83 1.03.08 2.07-.52 2.71-1.29z"/></svg>
+        <span><small>Загрузите в</small>App Store</span>
+      </a>
+      <a class="btn btn-ghost" href="https://t.me/greek_a2_bot">Открыть в Telegram</a>
     </div>
   </div>
 </section>
@@ -201,17 +345,20 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <div class="links">
-      <a href="https://apps.apple.com/app/id6810982667">App Store</a>
-      <a href="/privacy/">Privacy Policy</a>
-      <a href="/terms/">Terms of Use</a>
-      <a href="mailto:parasochkaartem@gmail.com">Контакт</a>
-      <a href="https://t.me/greek_a2_bot">@greek_a2_bot</a>
-      <a href="https://t.me/greekly_bot">@greekly_bot</a>
-      <a href="/">English</a>
+    <div class="top">
+      <a class="brand" href="/ru/"><img src="/assets/icon-512.png" alt="" width="32" height="32">Greekly</a>
+      <div class="links">
+        <a href="https://apps.apple.com/app/id6810982667">App Store</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms of Use</a>
+        <a href="mailto:parasochkaartem@gmail.com">Контакт</a>
+        <a href="https://t.me/greek_a2_bot">@greek_a2_bot</a>
+        <a href="https://t.me/greekly_bot">@greekly_bot</a>
+        <a href="/" hreflang="en" lang="en">English</a>
+      </div>
     </div>
-    <p>Оператор Greekly: WCBO LLC (WhiteCat Blogger Outreach LLC), Бивертон, Орегон 97005, США.</p>
-    <p>Greekly - тренажёр современного греческого, не учитель и не сертификат.</p>
+    <p>© 2026 WCBO LLC (WhiteCat Blogger Outreach LLC), Бивертон, Орегон 97005, США. Greekly - тренажёр современного греческого, не учитель и не сертификат.</p>
+    <p>Apple, логотип Apple и App Store - товарные знаки Apple Inc. Telegram - товарный знак Telegram FZ-LLC.</p>
   </div>
 </footer>
 
