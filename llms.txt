@@ -1,0 +1,36 @@
+# Greekly
+
+> Greekly (App Store name "Greekly AI: Learn Greek") is an iPhone app for learning Modern Greek, the language of Greece and Cyprus today. It generates quizzes, dialogues, letters, vocabulary and sentence-building exercises with AI around the learner's own life, in five practice modes, a few minutes a day. It is free to start with no account and no email, then Greekly Monthly costs $4.99 a month in the US App Store (local prices vary). No ads, no analytics or tracking SDKs. Developed by WCBO LLC (Beaverton, Oregon, USA; operations hub in Limassol, Cyprus).
+
+Key facts:
+- Platform: iPhone, iOS 17.4 or later. App Store: https://apps.apple.com/app/id6810982667
+- Practice modes: Quiz (20 questions per session with an explanation after every answer), Dialogue (everyday conversations line by line), Letter (write a short message in Greek and get it corrected), Words (vocabulary with spaced repetition and audio), Sentence constructor (build sentences from tiles).
+- Free plan: 5 exercises a day for the first 6 days, all five modes.
+- Teaches Modern Greek only, not Ancient, Koine or Biblical Greek. It is a practice tool, not a teacher and not a certification.
+- Also available as Telegram bots: @greekly_bot (English interface) and @greek_a2_bot (Russian interface). They are separate products with separate accounts.
+- Contact: support@greekly.eu
+
+## Guides (English)
+
+- [How to learn Greek](https://greekly.eu/learn-greek/): step-by-step plan from the alphabet to real conversations, grammar order, whether Greek is hard, how long it takes.
+- [Greek learning app](https://greekly.eu/learn-greek-app/): what a good app to learn Greek should do, and how Greekly's five modes work.
+- [Basic Greek phrases](https://greekly.eu/greek-phrases/): 70+ everyday phrases with Greek script, pronunciation and meaning.
+- [Learn Greek in Cyprus](https://greekly.eu/learn-greek-cyprus/): Standard vs Cypriot Greek, where to take classes, Greek for residence paperwork.
+- [Greek A2 level](https://greekly.eu/learn-greek-a2/): what the CEFR A2 level means in Greek, grammar and topics.
+- [Greek A2 exam](https://greekly.eu/greek-a2-exam/): the Certificate of Attainment in Greek (ellinomatheia) at A2, format, who needs it, preparation.
+
+## Guides (Russian)
+
+- [Как выучить греческий с нуля](https://greekly.eu/ru/learn-greek/)
+- [Приложение для изучения греческого](https://greekly.eu/ru/learn-greek-app/)
+- [Греческие фразы для начинающих](https://greekly.eu/ru/greek-phrases/)
+- [Греческий на Кипре](https://greekly.eu/ru/learn-greek-cyprus/)
+- [Греческий A2](https://greekly.eu/ru/learn-greek-a2/)
+- [Экзамен по греческому A2](https://greekly.eu/ru/greek-a2-exam/)
+
+## Product pages
+
+- [Home (English)](https://greekly.eu/)
+- [Home (Russian)](https://greekly.eu/ru/)
+- [Privacy Policy](https://greekly.eu/privacy/)
+- [Terms of Use](https://greekly.eu/terms/)

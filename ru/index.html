@@ -29,6 +29,7 @@
 <link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/style.css">
+<script src="/assets/nav.js" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,8 +68,16 @@
   <div class="wrap">
     <a class="brand" href="/ru/"><img src="/assets/icon-512.png" alt="" width="32" height="32">Greekly</a>
     <nav class="site-nav">
+      <details class="nav-drop">
+        <summary>Учим греческий</summary>
+        <div class="menu">
+          <a href="/ru/learn-greek/"><b>Как выучить греческий</b><small>Пошаговый план с нуля до живого разговора</small></a>
+          <a href="/ru/learn-greek-app/"><b>Приложение для греческого</b><small>Что должно уметь приложение и как работает Greekly</small></a>
+          <a href="/ru/greek-phrases/"><b>Греческие фразы</b><small>70 фраз на каждый день с произношением</small></a>
+          <a href="/ru/learn-greek-cyprus/"><b>Греческий на Кипре</b><small>Литературный и кипрский греческий, курсы, быт</small></a>
+        </div>
+      </details>
       <a href="#modes">Режимы</a>
-      <a href="#made-for-you">Как работает</a>
       <a href="#pricing">Подписка</a>
       <a href="#faq">Вопросы</a>
       <a href="#support">Поддержка</a>
@@ -270,6 +279,22 @@
   </div>
 </section>
 
+<section class="related guides" id="guides">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Гайды</span>
+      <h2>Учите греческий? Начните отсюда.</h2>
+      <p>Бесплатные гайды: как учить современный греческий с нуля, какие фразы нужны первыми и как учить язык, если вы живёте на Кипре.</p>
+    </div>
+    <div class="related-grid">
+      <a href="/ru/learn-greek/"><b>Как выучить греческий</b><span>Пошаговый план с нуля до живого разговора</span></a>
+      <a href="/ru/learn-greek-app/"><b>Приложение для греческого</b><span>Что должно уметь приложение и как работает Greekly</span></a>
+      <a href="/ru/greek-phrases/"><b>Греческие фразы</b><span>70 фраз на каждый день с произношением</span></a>
+      <a href="/ru/learn-greek-cyprus/"><b>Греческий на Кипре</b><span>Литературный и кипрский греческий, курсы, быт</span></a>
+    </div>
+  </div>
+</section>
+
 <section class="faq" id="faq">
   <div class="wrap">
     <div class="section-head center">
@@ -355,6 +380,14 @@
         <a href="/" hreflang="en" lang="en">English</a>
       </div>
     </div>
+    <nav class="guide-links" aria-label="Гайды">
+        <a href="/ru/learn-greek/">Как выучить греческий</a>
+        <a href="/ru/learn-greek-app/">Приложение для греческого</a>
+        <a href="/ru/greek-phrases/">Греческие фразы</a>
+        <a href="/ru/learn-greek-cyprus/">Греческий на Кипре</a>
+        <a href="/ru/learn-greek-a2/">Греческий A2</a>
+        <a href="/ru/greek-a2-exam/">Экзамен по греческому A2</a>
+    </nav>
     <p>© 2026 WCBO LLC, Бивертон, Орегон, США. Apple, App Store и Telegram - товарные знаки их владельцев.</p>
   </div>
 </footer>
