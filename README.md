@@ -8,6 +8,12 @@ Plain HTML and one CSS file, no build step, served by GitHub Pages.
 ```
 index.html                 English landing page
 ru/index.html              Russian landing page
+learn-greek/               Guide: how to learn Greek (EN), ru/learn-greek/ (RU)
+learn-greek-app/           Guide: Greek learning app / how Greekly works (EN + ru/)
+greek-phrases/             Guide: basic Greek phrases with pronunciation (EN + ru/)
+learn-greek-cyprus/        Guide: learning Greek in Cyprus (EN + ru/)
+learn-greek-a2/            Internal page: the A2 level (EN + ru/), linked from guides and footer, not from the menu
+greek-a2-exam/             Internal page: the A2 exam / ellinomatheia (EN + ru/), linked from guides and footer, not from the menu
 privacy/index.html         Privacy Policy (English)
 terms/index.html           Terms of Use (English)
 404.html                   Not-found page
@@ -20,9 +26,22 @@ assets/apple-touch-icon.png, favicon-32.png, favicon-64.png
 assets/og-image.jpg        1200x630 social preview built from the screenshots
 CNAME                      Custom domain: greekly.eu
 .nojekyll                  Serve files as-is, no Jekyll processing
-robots.txt                 Crawling rules + sitemap reference
-sitemap.xml                URL list with hreflang pairs
+assets/nav.js              Closes the "Learn Greek" header dropdown on outside click / Escape
+robots.txt                 Crawling rules (search engines and AI crawlers allowed) + sitemap reference
+sitemap.xml                URL list with hreflang pairs (en, ru, x-default) and lastmod
+llms.txt                   Plain-text site summary and page index for AI assistants
 ```
+
+## Guides and SEO
+
+The header has a "Learn Greek" dropdown (`<details class="nav-drop">`, works without JS) with the four
+main guides. The A2 level and A2 exam pages are deliberately kept out of the menu: the product copy is
+level-agnostic, so those pages are reached from links inside the guides, the footer and the sitemap.
+
+Every guide page has a canonical URL, hreflang pairs to its EN/RU twin, and JSON-LD (`Article`,
+`BreadcrumbList`, `FAQPage`; the app guide also has `SoftwareApplication`). The FAQ in the JSON-LD must
+match the visible FAQ on the page. When a page is added or changed, update `sitemap.xml` (`lastmod`)
+and `llms.txt`.
 
 ## Local preview
 
