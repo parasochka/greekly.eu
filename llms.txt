@@ -1,6 +1,6 @@
 # Greekly
 
-> Greekly (App Store name "Greekly AI: Learn Greek") is an iPhone app for learning Modern Greek, the language of Greece and Cyprus today. It generates quizzes, dialogues, letters, vocabulary and sentence-building exercises with AI around the learner's own life, in five practice modes, a few minutes a day. It is free to start with no account and no email, then Greekly Monthly costs $4.99 a month in the US App Store (local prices vary). No ads, no analytics or tracking SDKs. Developed by WCBO LLC (Beaverton, Oregon, USA; operations hub in Limassol, Cyprus).
+> Greekly (App Store name "Greekly AI: Learn Greek") is an iPhone app for learning Modern Greek, the language of Greece and Cyprus today. It generates quizzes, dialogues, letters, vocabulary and sentence-building exercises with AI around the learner's own life, in five practice modes, a few minutes a day. It is free to start with no account and no email, then Greekly Monthly costs $4.99 a month in the US App Store (local prices vary). No ads, no analytics or tracking SDKs. Developed by WCBO LLC (Beaverton, Oregon, US).
 
 Key facts:
 - Platform: iPhone, iOS 17.4 or later. App Store: https://apps.apple.com/app/id6810982667

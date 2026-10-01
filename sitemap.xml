@@ -3,14 +3,14 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://greekly.eu/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://greekly.eu/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://greekly.eu/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greekly.eu/"/>
   </url>
   <url>
     <loc>https://greekly.eu/ru/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://greekly.eu/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://greekly.eu/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greekly.eu/"/>
@@ -99,6 +99,6 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://greekly.eu/ru/greek-a2-exam/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greekly.eu/greek-a2-exam/"/>
   </url>
-  <url><loc>https://greekly.eu/privacy/</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://greekly.eu/terms/</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://greekly.eu/privacy/</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://greekly.eu/terms/</loc><lastmod>2026-10-01</lastmod></url>
 </urlset>
